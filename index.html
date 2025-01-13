@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>OrderTasty.</a>
+      <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">review</a>
+        <a href="#order">Order</a>
+      </nav>
+      <div class="icons">
+        <i class="fa-solid fa-bars" id="menu-bars"></i>
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <a href="#" class="fa-regular fa-heart"></a>
+        <a href="#" class="fa-solid fa-cart-shopping" id="cart"></a>
+      </div>
+    </header>
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="Search here.."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+      <i class="fa-solid fa-xmark" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>spicy noodles</h3>
+              <p>Spicy noodles are a flavorful, fiery dish that combines tender noodles with a bold, zesty kick of heat from chili and aromatic spices.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image-2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>spicy chicken Biryani</h3>
+              <p>Chicken biryani is a fragrant, flavorful rice dish made with tender chicken, aromatic spices, and basmati rice, all cooked together for a rich.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image-3.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Burger</h3>
+              <p>A burger is a delicious, savory sandwich typically consisting of a juicy beef patty, fresh vegetables, cheese, and condiments, all nestled between a soft, toasted bun.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image-14.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Pizza</h3>
+              <p>Pizza is a popular Italian dish featuring a crispy, thin or thick crust topped with tomato sauce, melted cheese, and a variety of delicious toppings like vegetables, meats, and herbs.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image-5.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>idle</h3>
+              <p>In many parts of India and other South Asian countries, "tiffin" refers to a light meal or snack, often eaten during mid-morning or evening.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="image-28.png" />
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-20.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>99 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart" class="heart1"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-22.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>59 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-28.png" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>89 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-7.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>59 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-13.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>199 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-17.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>159 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-23.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>89 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-16.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>149 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-30.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>129 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-19.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>99 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-24.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>99 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-12.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>259 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-10.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>299 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-27.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>159 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-25.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>359 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-15.jpg" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>249 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-18.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>119 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fa-regular fa-heart"></a>
+          <a href="#" class="fa-solid fa-eye"></a>
+          <img src="image-26.png" alt="" />
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>99 <i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+      <div class="row">
+        <div class="image">
+          <img src="image-14.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>best food in the country</h3>
+          <p>
+            The best food in any country can be highly subjective and depends on
+            personal preferences, regional variations, and cultural influences.
+          </p>
+          <p>
+            <b> Biryani:</b> A fragrant, spiced rice dish typically made with
+            basmati rice, tender meat (like chicken, mutton, or beef), and a
+            blend of aromatic spices. It’s often served with yogurt-based raita
+            and a hard-boiled egg. <b>Butter Chicken:</b> A rich and creamy
+            tomato-based curry with tender chicken, famous for its smooth
+            texture and mildly spicy flavor. <br />
+            <b>Chaat:</b> A popular street food featuring crispy fried dough
+            topped with potatoes, chickpeas, yogurt, chutneys, and various
+            spices. Pani puri, bhel puri, and papri chaat are among the most
+            famous varieties.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fa-solid fa-truck-fast"></i>
+              <span>free delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-indian-rupee-sign"></i>
+              <span>easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's speciality</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="image-10.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Chicken Tandoori</h3>
+            <p>
+              The Chicken Tandoori was a feast for the senses, from its enticing
+              aroma to its vibrant presentation. The pieces of chicken were
+              generously marinated in a rich blend of yogurt and spices,
+              including cumin, coriander, and garam masala.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >399 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-1.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Chicken Leg Pieces</h3>
+            <p>
+              The chicken leg pieces were a delightful treat for both the eyes
+              and the palate. Cooked to perfection, the exterior had a
+              beautifully golden, crisp finish with visible charring that hinted
+              at a smoky, grilled flavor.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >299 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-13.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Chicken Curry</h3>
+            <p>
+              The chicken curry was a comforting and flavorful dish, rich with
+              aromatic spices and tender pieces of meat. The gravy had a perfect
+              balance of thickness — not too watery, yet smooth enough to coat
+              each morsel of chicken generously.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >199 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-11.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Chicken Wings</h3>
+            <p>
+              The chicken wings were a mouthwatering combination of crispy
+              exterior and tender, juicy meat inside. Each piece was evenly
+              coated with a golden, crunchy crust that delivered a satisfying
+              crackle with every bite.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >259 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-12.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>KFC</h3>
+            <p>
+              KFC’s fried chicken remains a timeless classic that delivers on
+              both taste and texture. The iconic crispy outer layer is the
+              perfect combination of crunch and seasoning, with a blend of herbs
+              and spices.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >259 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-8.png" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>French Fries</h3>
+            <p>
+              The French fries were perfectly crispy on the outside with a
+              tender, fluffy interior that was just the right texture. Each fry
+              was golden brown, with a slight crunch that gave way to a soft,
+              pillowy center, making them incredibly satisfying.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >99 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-21.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Veg Thali</h3>
+            <p>
+              The Veg Thali was an impressive spread that offered a delightful
+              variety of flavors and textures, showcasing the best of vegetarian
+              Indian cuisine. Each dish was served in small portions, allowing
+              for a diverse tasting.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >249 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-25.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Mutton</h3>
+            <p>
+              The mutton dish was a deeply satisfying and flavorful experience.
+              The meat was cooked to tender perfection, with each piece
+              practically falling off the bone. The slow-cooked mutton was
+              infused with aromatic spices, creating a rich.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >279 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image-29.jpg" alt="" />
+            <a href="#" class="fa-solid fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>Fish Curry</h3>
+            <p>
+              The fish curry was an absolute delight, bursting with vibrant,
+              aromatic flavors. The curry base was rich and creamy, with a
+              perfect balance of tanginess from the tamarind and a gentle heat
+              from the spices.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="pice"
+              >239 <i class="fa-solid fa-indian-rupee-sign"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
+      <div class="review-slider">
+        <div class="wrapper">
+          <div class="slide">
+            <i class="fa-solid fa-quote-right"></i>
+            <div class="user">
+              <img src="my.jpg" alt="" />
+              <div class="user-info">
+                <h3>Vidhyanand</h3>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              The Margherita pizza was a delightful burst of simplicity done
+              right. The thin crust was perfectly crisp, with a slight chew at
+              the center, providing a perfect base for the rich tomato sauce.
+              The fresh mozzarella melted beautifully, creating pockets of
+              creamy goodness with every bite.
+            </p>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-quote-right"></i>
+            <div class="user">
+              <img src="my-2.jpg" alt="" />
+              <div class="user-info">
+                <h3>naveen</h3>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              The cheeseburger delivered a hearty, comforting experience. The
+              patty was thick, juicy, and well-seasoned, seared to a perfect
+              crust while remaining tender inside. The melted cheddar cheese
+              oozed over the meat, adding sharpness that complemented the smoky
+              flavor.
+            </p>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-quote-right"></i>
+            <div class="user">
+              <img src="my-3.jpg" alt="" />
+              <div class="user-info">
+                <h3>Vishnu</h3>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              The butter chicken was an exquisite symphony of flavors. The
+              chicken was tender, marinated to perfection, and simmered in a
+              velvety tomato-based gravy enriched with cream and butter. The
+              sauce had a harmonious balance of sweetness and spice, with a
+              subtle smoky undertone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">free and fast</h1>
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name" />
+          </div>
+          <div class="input">
+            <span>your number</span>
+            <input type="number" placeholder="enter your number" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name" />
+          </div>
+          <div class="input">
+            <span>additional food</span>
+            <input type="test" placeholder="extra with food" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>how much</span>
+            <input type="number" placeholder="how many orders" />
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>your address</span>
+            <textarea
+              name=""
+              id=""
+              placeholder="enter your address"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>your message</span>
+            <textarea
+              name=""
+              id=""
+              placeholder="enter your message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">Anantapur</a>
+          <a href="#">Hindupur</a>
+          <a href="#">tirupathi</a>
+          <a href="#">kadapa</a>
+          <a href="#">kurnool</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">About</a>
+          <a href="#menu">menu</a>
+          <a href="#review">review</a>
+          <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact info</h3>
+          <a href="#">+123-456-7890</a>
+          <a href="#">+111-222-3333</a>
+          <a href="#">vidhyanand067@gmail.com</a>
+          <a href="#">hindupur,sri sathya sai</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i> facebook</a>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i> twitter</a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i> instagram</a>
+          <a href="#"><i class="fa-brands fa-youtube"></i> youtube</a>
+        </div>
+      </div>
+      <div class="credit">
+        <span>Vidhyanand</span> copyright &copy; 2025
+        <i class="fa-solid fa-heart" style="color: red"></i>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
